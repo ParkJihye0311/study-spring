@@ -55,9 +55,11 @@ class MemberServiceTest {
         member2.setName("spring");
 
         //when
+        // 결과 확인 하는 방법 1
         memberService.join(member1);
         assertThrows(IllegalStateException.class, () -> memberService.join(member1));
 
+        //결과 확인 하는 방법 2
        /* try{
             memberService.join(member2);
             fail();
