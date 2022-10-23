@@ -22,6 +22,7 @@ public class MemberController {
         return "members/createMemberForm";
     }
 
+
     /**
      * 데이터 조회 할때 보통 get 방식을 사용 @GetMapping
      * 데이터 등록 할 때 post 방식을 사용  @PostMapping
